@@ -1,18 +1,33 @@
 {
-	"variables": {
-		"client_id": "{{env `ARM_CLIENT_ID`}}",
-		"client_secret": "{{env `ARM_CLIENT_SECRET`}}",
-		"subscription_id": "{{env `ARM_SUBSCRIPTION_ID`}}"
+  "builders": [{
+    "type": "azure-arm",
+
+    "client_id": "28accedf-6cb6-4428-8986-5095cddaa1d8",
+    "client_secret": "TFe3Rhb3Ms81~nfiYQcSD-s0Nn6za~bkDf",
+    "tenant_id": "08b8ade4-ee4d-4236-a13a-63a4c601b3c2",
+    "subscription_id": "041ff511-bfa6-4e8a-8808-7a3fcaf13c96",
+
+    "managed_image_resource_group_name": "Udacity_Assignment_1",
+    "managed_image_name": "UdacityPackerImage",
+
+    "os_type": "Linux",
+    "image_publisher": "Canonical",
+    "image_offer": "UbuntuServer",
+    "image_sku": "18.04-LTS",
+
+    "azure_tags": {
+		"Udacity": "Course1"
 	},
-	"builders": [{
-		**YOUR CODE HERE**
-	}],
-	"provisioners": [{
+
+    "location": "East US",
+    "vm_size": "Standard_DS2_v2"
+  }],
+  "provisioners": [{
 		"inline": [
 			"echo 'Hello, World!' > index.html",
 			"nohup busybox httpd -f -p 80 &"
 		],
 		"inline_shebang": "/bin/sh -x",
-		"type: "shell"
+		"type": "shell"
 	}]
 }
