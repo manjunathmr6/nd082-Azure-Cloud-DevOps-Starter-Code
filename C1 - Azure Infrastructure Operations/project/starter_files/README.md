@@ -36,7 +36,7 @@ Note: This would take few minutes to build
 
 #### Output
 Output of `packer build server.json`
-![alt text] https://github.com/manjunathmr6/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C1%20-%20Azure%20Infrastructure%20Operations/project/starter_files/Packer.png
+![alt text]https://github.com/manjunathmr6/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C1%20-%20Azure%20Infrastructure%20Operations/project/starter_files/Packer.png
 
 
 ## Create the Infrastructure using Terraform Template
