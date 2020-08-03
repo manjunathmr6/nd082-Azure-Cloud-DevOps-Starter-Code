@@ -26,7 +26,7 @@ For instructions on how to create and apply policy in Azure, click here: https:/
 
 #### Output
 Output `az policy assignment list`
-![alt text] https://github.com/manjunathmr6/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C1%20-%20Azure%20Infrastructure%20Operations/project/starter_files/Policy.png
+![alt text](https://github.com/manjunathmr6/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C1%20-%20Azure%20Infrastructure%20Operations/project/starter_files/Policy.png)
 
 ## Build Packer Template
 1. Create and alter the content present in `server.json` present in the local directory. (If not present, create the file)
@@ -36,7 +36,7 @@ Note: This would take few minutes to build
 
 #### Output
 Output of `packer build server.json`
-![alt text]https://github.com/manjunathmr6/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C1%20-%20Azure%20Infrastructure%20Operations/project/starter_files/Packer.png
+![alt text](https://github.com/manjunathmr6/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C1%20-%20Azure%20Infrastructure%20Operations/project/starter_files/Packer.png)
 
 
 ## Create the Infrastructure using Terraform Template
@@ -50,15 +50,15 @@ Output of `packer build server.json`
 #### Output
 Output of `terraform  plan -out solution.plan`
 
-![alt text]https://github.com/manjunathmr6/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C1%20-%20Azure%20Infrastructure%20Operations/project/starter_files/terraformapply.png
+![alt text](https://github.com/manjunathmr6/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C1%20-%20Azure%20Infrastructure%20Operations/project/starter_files/terraformapply.png)
 
 Output of `terraform apply solution.plan`
 
-![alt text]https://github.com/manjunathmr6/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C1%20-%20Azure%20Infrastructure%20Operations/project/starter_files/terraformplan.png
+![alt text](https://github.com/manjunathmr6/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C1%20-%20Azure%20Infrastructure%20Operations/project/starter_files/terraformplan.png)
 
 Output of `terraform show`
 
-![alt text]https://github.com/manjunathmr6/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C1%20-%20Azure%20Infrastructure%20Operations/project/starter_files/terraformshow.png
+![alt text](https://github.com/manjunathmr6/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C1%20-%20Azure%20Infrastructure%20Operations/project/starter_files/terraformshow.png)
 
 Reference:
 Microsoft Azure website                            
