@@ -10,13 +10,13 @@ variable "location" {
   default     = "East US"
 }
 
-variable "admin_username" {
+variable "username" {
     type 	  = string
     description = "Default username for admin"
     default = "adminuser"
 }
 
-variable "admin_password" {
+variable "password" {
     type 	  = string
     description = "Default password for admin"
     default = "P@ssw0rd1234!"
